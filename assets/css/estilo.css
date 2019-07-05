@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f1f1f14f;
+}
+
+.top {
+    height: 32px;
+    background: #f1f1f1;
+    font-size: 11px;
+
+}
+
+a {
+    color: #000;
+}
+
+.nav {
+    height: 110px;
+    background: #fff;
+}
+
+.col-contato a {
+    color: #000;
+}
+
+.col-lista {
+    display: flex;
+    float: right;
+    height: 32px;
+    align-items: center;
+    width: 54%;
+    justify-content: space-evenly;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+.col-contato {
+    width: 35%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+
+.logo {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.busca {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    justify-content: flex-end;
+
+
+}
+
+ul.itens {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
+    margin-bottom: 0;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+
+.busca .btBuscar {
+    top: 2px;
+    right: 25px;
+    position: inherit;
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+
+
+}
+
+.compras {
+    position: relative;
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-content {
+
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 184px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #fff;
+    display: none;
+    margin-top: 87px;
+    margin-right: 9%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px 0px 10px 0px;
+
+}
+
+.dropdown-content a:hover {
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.WPP {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.img-compras {
+    width: 10%;
+    cursor: pointer;
+}
+
+.box {
+    height: 5px;
+    width: 5px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    margin-top: -2px;
+}
+
+.WPP:hover,
+.tel:hover {
+    transform: scale(1.1);
+}
+
+.box2 {
+    float: right;
+    width: 4px;
+    height: 4px;
+    border: 4px solid #fff;
+    margin-top: -18px;
+    transform: rotate(45deg);
+    margin-right: 20%;
+}
+
+ul.itens li a:hover {
+    color: red;
+}
+
+.box3:hover {
+    transform: scale(1.2);
+}
+
+.box3 {
+    border: 1px solid #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    margin-top: 8px;
+    font-size: 8px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+button.dropbtn {
+    border: none;
+    font-size: 16px;
+    color: #000;
+    background: transparent;
+    font-weight: 700;
+       width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+button.dropbtn:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+
+
+
